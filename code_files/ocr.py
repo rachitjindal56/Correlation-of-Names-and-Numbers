@@ -4,7 +4,7 @@ import cv2
 import pytesseract
 from pytesseract import Output
 
-def text_image(path):
+def text_image(path:str)->str:
     
     image = cv2.imread(path)
     image = cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
