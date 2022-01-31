@@ -11,8 +11,3 @@ def text_image(path:str)->str:
     
     result = pytesseract.image_to_string(image,output_type=Output.STRING)
     return result
-
-
-    
-    
-    
