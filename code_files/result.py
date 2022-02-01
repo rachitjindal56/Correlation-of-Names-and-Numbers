@@ -7,7 +7,7 @@ from re_pan_aadhar_match import extract_Aadhaar
 from re_pan_aadhar_match import extract_PAN
 from names_ner import extract_names
 
-def extract():
+def extract(path:str):
     # path = "C:/Users/Rachit/Onedrive/Desktop/Files/VS/OCR/duEX6.png"
     # text = text_image(path)
     
@@ -36,4 +36,5 @@ def extract():
     print(sol)
 
 if __name__ == '__main__':
-    extract()    
+    path = input("Enter the path of the image date to be extracted: ")
+    extract(path)
