@@ -20,7 +20,7 @@ the given name.
         README.md
 
 
-### ocr.py
+## ocr.py
 
 It contains two function: 
 #### 1. text_image:
@@ -60,7 +60,7 @@ To process the extracted text to remove the extra spaces and indentations.
         return result
 
     
-### re_pan_aadhaar_match.py
+## re_pan_aadhaar_match.py
 
 It contains two function:
 
@@ -102,7 +102,7 @@ using the regex module.
         
         return result
 
-### names_ner.py
+## names_ner.py
 
 It contains a single function extract_names that takes string as input and
 returns the list of the names extracted using a pre-trained Hugging Face NER
@@ -137,7 +137,7 @@ Only the names of the person represented as 'PER' is returned as per the require
         
         return names_list
 
-### output_phrasing.py
+## output_phrasing.py
 
 This file contains function final_output. 
 This function converts the output into the dictionary for the output 
@@ -186,7 +186,7 @@ to the result.py file.
                 
         return sol
 
-### result.py
+## result.py
 
 This file compiles functions of all the above files and prints the output in
 the dictionary format.
