@@ -109,7 +109,7 @@ returns the list of the names extracted using a pre-trained Hugging Face NER
 model. The model used is "dslim/bert-base-NER-uncased" which is trained on a
 rich dataset.
 
-Only the names of the person represented as 'PER' is returned as per the requirement.
+Only the names of the person represented as 'NER' is returned as per the requirement.
 
     def extract_names(text:str)->list:
         
